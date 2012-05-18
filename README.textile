@@ -1,0 +1,40 @@
+h1. TIMS
+
+Telecommunication Instructional Modelling System
+
+h2. Required Gems
+
+This application requires these gems:
+
+* "sinatra 1.3.2":https://github.com/sinatra/sinatra
+* "haml":https://github.com/haml/haml
+
+h2. Dependencies
+
+To use this application, you will need:
+
+* Ruby 1.9.3
+* Sinatra 1.3.2 or newer
+
+h2. Installing the Application
+
+TODO
+
+h2. Getting Started
+
+TODO
+
+h2. Documentation and Support
+
+This is the only documentation.
+
+h2. Credits
+
+TIMS is developed by:
+
+mithi
+mikong
+
+h2. License
+
+&copy; 2012
