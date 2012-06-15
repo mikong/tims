@@ -1,1 +1,46 @@
-%h1 Hello TIMS
+.page-header
+  %h1 Hello TIMS
+
+.container
+  .row
+    .span6
+      %section.signals
+        .navbar
+          .navbar-inner
+            .container
+              .brand
+                Signals
+              %ul.nav.pull-right
+                %li{ title: 'New External Signal' }
+                  %a{ href: '#' }
+                    %i.icon-plus-sign.icon-white
+                %li{ title: 'Signal Details' }
+                  %a{ href: '#' }
+                    %i.icon-eye-open.icon-white
+                %li{ title: 'Listen to Signal' }
+                  %a{ href: '#' }
+                    %i.icon-headphones.icon-white
+
+    .span6
+      %section.modules
+        .navbar
+          .navbar-inner
+            .container
+              .brand
+                Modules
+              %ul.nav.pull-right
+                %li{ title: 'Block Diagram' }
+                  %a{ href: '#' }
+                    %i.icon-th.icon-white
+                %li{ title: 'Reset' }
+                  %a{ href: '#' }
+                    %i.icon-off.icon-white
+                %li{ title: 'Save' }
+                  %a{ href: '#' }
+                    %i.icon-download-alt.icon-white
+                %li{ title: 'Manual' }
+                  %a{ href: '#' }
+                    %i.icon-book.icon-white
+                %li{ title: 'Experiments' }
+                  %a{ href: '#' }
+                    %i.icon-print.icon-white

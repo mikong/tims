@@ -1,6 +1,15 @@
 @import "twitter/bootstrap";
 @import "twitter/responsive";
 
-body {
-  //background: #0000aa;
+section.signals, section.modules {
+  position: relative;
+  border: 1px solid #555;
+
+  &:after {
+    content: ".";
+    height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+  }
 }
