@@ -37,6 +37,12 @@ section.signals, section.modules {
         background-color: #ddd;
       }
 
+      td:nth-child(2) {
+        text-align: right;
+      }
+    }
+  }
+
   .box {
     position: relative;
     height: 240px;

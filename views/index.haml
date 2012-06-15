@@ -62,20 +62,19 @@
 
         %table.table.table-striped
           %tbody
-            %tr
-              %td One
-            %tr
-              %td Two
-            %tr
-              %td Three
-            %tr
-              %td Four
-            %tr
-              %td Five
-            %tr
-              %td Six
+            - items = ['One', 'Two', 'Three', 'Four', 'Five', 'Six']
+            - items.each do |item|
+              %tr
+                %td= item
+                %td
+                  %a.edit{ href: '#', title: 'Edit' }
+                    %i.icon-edit
+                  &nbsp;
+                  %a{ href: '#', title: 'Delete' }
+                    %i.icon-trash
             %tr
               %td
                 %a{ href: '#' }
                   %i.icon-plus-sign
                   Add Module
+              %td
