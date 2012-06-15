@@ -3,6 +3,7 @@
 
 body {
   font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
 }
 
 .navbar .brand {
@@ -12,6 +13,10 @@ body {
 section.signals, section.modules {
   position: relative;
   border: 1px solid #555;
+
+  .navbar {
+    font-size: 12px;
+  }
 
   &:after {
     content: ".";
