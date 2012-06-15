@@ -36,6 +36,40 @@ section.signals, section.modules {
       tr:hover th {
         background-color: #ddd;
       }
+
+  .box {
+    position: relative;
+    height: 240px;
+    background-color: #efefef;
+    margin: 10px;
+
+    ul.legend {
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+
+      list-style: none;
+
+      margin-left: 5px;
+
+      li {
+        display: block;
+        float: left;
+      }
+
+      .signal {
+        width: 20px;
+        height: 12px;
+        margin: 0px 5px;
+
+        &.blue { background-color: blue }
+        &.red { background-color: red }
+        &.yellow { background-color: yellow }
+        &.green { background-color: green }
+        &.orange { background-color: orange }
+        &.violet { background-color: violet }
+
+      }
     }
   }
 }
