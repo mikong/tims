@@ -1,6 +1,14 @@
 @import "twitter/bootstrap";
 @import "twitter/responsive";
 
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar .brand {
+  padding: 10px 20px 10px;
+}
+
 section.signals, section.modules {
   position: relative;
   border: 1px solid #555;
