@@ -12,7 +12,6 @@ body {
 
 section.signals, section.modules {
   position: relative;
-  border: 1px solid #555;
 
   .navbar {
     font-size: 12px;
@@ -24,5 +23,19 @@ section.signals, section.modules {
     display: block;
     clear: both;
     visibility: hidden;
+  }
+
+  .table-striped {
+    tbody {
+      tr:nth-child(odd) td,
+      tr:nth-child(odd) th {
+        background-color: #eee;
+      }
+
+      tr:hover td,
+      tr:hover th {
+        background-color: #ddd;
+      }
+    }
   }
 }
